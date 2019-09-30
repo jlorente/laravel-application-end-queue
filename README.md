@@ -44,7 +44,7 @@ return [
     //other stuff
     'providers' => [
         //other stuff
-        Jlorente\Laravel\Queue\QueueServiceProvider,
+        Jlorente\Laravel\Queue\ApplicationEndQueueServiceProvider,
     ];
 ];
 ```
