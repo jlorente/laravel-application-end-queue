@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jlorente\\Laravel\\Queue\\ApplicationEnd": "src/"
+            "Jlorente\\Laravel\\Queue\\ApplicationEnd\\": "src/"
         }
     },
     "extra": {
