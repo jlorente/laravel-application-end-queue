@@ -14,7 +14,7 @@
  * @version    1.0.2
  * @author     Jose Lorente
  * @license    BSD License (3-clause)
- * @copyright  (c) 2018, Jose Lorente
+ * @copyright  (c) 2019, Jose Lorente
  */
 
 namespace Jlorente\Laravel\Queue\ApplicationEnd;
