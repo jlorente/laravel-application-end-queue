@@ -1,0 +1,39 @@
+{
+    "name": "jlorente/laravel-application-end-queue",
+    "description": "A Laravel queue connector to process jobs at the end of the application",
+    "keywords": [
+        "php",
+        "jlorente",
+        "laravel",
+        "queue",
+        "application end",
+        "application finish",
+        "application terminate",
+        "end",
+        "finish"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "José Lorente",
+            "email": "jose.lorente.martin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "~5.6 || ^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jlorente\\Laravel\\Queue\\ApplicationEnd": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jlorente\\Laravel\\Queue\\ApplicationEnd\\ApplicationEndQueueServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
